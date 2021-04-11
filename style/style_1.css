@@ -1,0 +1,60 @@
+
+
+
+/* grid layout */
+#container {
+  display: grid;
+  grid-template-areas:
+    "heading heading "
+    "left_side_pannel  center_side_pannel ";
+
+  grid-gap: 10px;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+/* --- */
+
+/* ----------login page--------- */
+.form {
+  padding: 5%;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  margin-left: 30%;
+  margin-right: 30%;
+ 
+  border-style: solid;
+  border-radius: 5%;
+  border-color: black;
+}
+/* ------------------------------ */
+
+/* -------------dashboard------------ */
+#heading {
+  text-align: center;
+  margin-top: 1%;
+  padding-top: 0.5%;
+  padding-bottom: 0.5%;
+  color: white;
+  background-color: rgb(83, 83, 83);
+  grid-area: heading;
+}
+/* left_side_pannel */
+#left_side_pannel {
+  padding: 1%;
+  background-color: rgb(223, 223, 223);
+  column-width: 110px;
+  grid-area: left_side_pannel;
+}
+/* --- */
+
+/* center_side_pannel */
+#center_side_pannel {
+  padding: 1%;
+  width: 800px;
+  column-width: auto;
+  grid-area: center_side_pannel;
+}
+
+/* --- */
+
+/* ------------------------------------ */

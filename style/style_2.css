@@ -1,0 +1,43 @@
+.body {
+  background-color: rgb(99, 99, 99);
+}
+
+#container {
+  display: grid;
+  grid-template-areas: "left_side_pannel  right_side_pannel right_side_pannel right_side_pannel  ";
+
+  grid-gap: 40px;
+  padding: 2%;
+}
+
+/* -----left_side_pannel---- */
+#left_side_pannel {
+  margin-top: 2%;
+  padding: 1%;
+  padding-left: 2%;
+  padding-right: 2%;
+  background-color: rgb(182, 182, 182);
+
+  grid-area: left_side_pannel;
+}
+/* --- */
+
+#right_side_pannel {
+  margin-top: 2%;
+  padding: 1%;
+  padding-left: 2%;
+  padding-right: 2%;
+  background-color: rgb(182, 182, 182);
+
+  grid-area: right_side_pannel;
+}
+
+#center {
+  text-align: center;
+}
+
+/* start text captalized */
+.form-control {
+  text-transform: capitalize;
+}
+/* start text captalized */
