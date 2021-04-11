@@ -1,8 +1,6 @@
 --------------
-
-*Project 
-Dated: 10/04/2021
-
+# BUSINESS DASHBOARD
+## About project
 This is a basic system for inventory, sales & payment entry,
 along with it you can have the dashboard to analyzie and overview your business.
 
